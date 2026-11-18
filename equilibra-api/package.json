@@ -1,0 +1,12 @@
+{
+  "name": "equilibra",
+  "version": "1.0.0",
+  "description": "Equilibra: gestão financeira pessoal (site + API + SQLite)",
+  "private": true,
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test test/api.test.js"
+  },
+  "engines": { "node": ">=22.13" }
+}
